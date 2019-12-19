@@ -15,4 +15,4 @@ More details can be found in my <a href="https://github.com/wxwangIris" target="
 Open-source projects can be found at my <a href="https://github.com/wxwangIris" target="_blank">GitHub</a>
 , and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>.
 
-![texture theme preview](/img/about/portfolio.png =100x100)
+![texture theme preview](/img/about/portfolio.png)
