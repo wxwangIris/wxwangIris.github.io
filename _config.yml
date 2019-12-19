@@ -16,8 +16,8 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Adam Denisov
-  tagline: Developer. Designer
+  title: Wenxuan Wang
+  tagline: Ph.D. Student
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
@@ -25,10 +25,11 @@ texture:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+    # twitter: thelehhman
+    github:  wxwangIris
+    googleplus: 
+    # linkedIn: in/thelehhman
+    # rss: rss
  
 
 # If you want to link only specific pages in your header, uncomment

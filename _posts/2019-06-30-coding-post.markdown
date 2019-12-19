@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Wenxuan Wang"
+title:  "About me"
 date:   2019-12-23 21:03:36 +0530
 ---
 
@@ -16,3 +16,4 @@ Open-source projects can be found at my <a href="https://github.com/wxwangIris" 
 , and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>.
 
 ![texture theme preview](/img/about/portfolio.png)
+<img src="/img/about/portfolio.png" width = "100" height = "100" div align=center />
