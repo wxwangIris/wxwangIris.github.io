@@ -5,7 +5,8 @@ description: Publications can be found at <a href="https://scholar.google.com/ci
 date:   2019-12-23 21:03:36 +0530
 ---
 
-$\color{Pose-Normalized Image Generation for Person Re-identification}{blue}$
+<a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Xuelin_Qian_Pose-Normalized_Image_Generation_ECCV_2018_paper.html" 
+target="_blank">Pose-Normalized Image Generation for Person Re-identification</a>
 
 Proceedings of the European Conference on Computer Vision (ECCV), 2018
 
