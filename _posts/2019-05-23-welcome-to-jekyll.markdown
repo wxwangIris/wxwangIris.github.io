@@ -4,6 +4,7 @@ title:  "Publications"
 description: Publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a> too.
 date:   2019-12-23 21:03:36 +0530
 ---
+![texture theme preview](/img/publication/ACMMM19_Framework.png)
 
 <b>Wenxuan Wang</b>, Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yu-Gang Jiang, Xiangyang Xue
 
@@ -13,6 +14,7 @@ target="_blank">Comp-GAN: Compositional Generative Adversarial Network in Synthe
 Proceedings of the 27th ACM International Conference on Multimedia (ACM MM), 2019
 
 ------
+![texture theme preview](/img/publication/arxiv_face_dataset_setting.png)
 
 <b>Wenxuan Wang</b>, Qiang Sun, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yanwei Fu
 
@@ -22,6 +24,7 @@ target="_blank">A Fine-Grained Facial Expression Database for End-to-End Multi-P
 arXiv preprint arXiv:1907.10838
 
 ------
+![texture theme preview](/img/publication/eccv_generated_images.png)
 
 Xuelin Qian, Yanwei Fu, Tao Xiang, <b>Wenxuan Wang</b>, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue
 
