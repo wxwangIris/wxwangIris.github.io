@@ -5,9 +5,9 @@ description: Welcome to drop me an email if you are interested in my works!
 date:   2019-12-23 21:03:36 +0530
 ---
 
+Email: wxwang19 AT fudan.edu.cn or wxwang.iris AT gmail.com
+
 School of Computer Science
 Fudan University
-
-Email: wxwang19 AT fudan.edu.cn or wxwang.iris AT gmail.com
 
 Addr: Room 408, Computer Science Building, 825 Zhangheng Road, Pudong, Shanghai 201203, China.
