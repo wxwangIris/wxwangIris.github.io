@@ -199,7 +199,7 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Publications: 'publications'
+  Publications: 'timeline'
   Contact: 'contact'
 # Exclusion list from the generated _site
 
