@@ -16,7 +16,7 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Wenxuan Wang
+  title: Wenxuan
   tagline: Ph.D. Student at Fudan University
   date_format: "%b %-d, %Y"
   style: black
@@ -27,7 +27,6 @@ texture:
   social_links:
     # twitter: thelehhman
     github:  wxwangIris
-    googleplus: 
     # linkedIn: in/thelehhman
     # rss: rss
  
