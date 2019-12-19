@@ -17,7 +17,7 @@ sass:
 permalink: /posts/:title/
 texture:
   title: Wenxuan Wang
-  tagline: Ph.D. Student
+  tagline: Ph.D. Student at Fudan University
   email: wxwang.iris@gmail.com
   date_format: "%b %-d, %Y"
   style: black
