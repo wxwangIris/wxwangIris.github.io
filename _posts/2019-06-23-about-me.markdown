@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About me"
+title:  "About Me"
 date:   2019-12-23 21:03:36 +0530
 ---
 
@@ -8,11 +8,10 @@ Hi! I am currently a third-year Ph.D. student at Fudan University, under the sup
 
 <div>
 <img src="/img/about/portfolio.png" alt="." width="200" height="200" align="right">
-<span>
-My research interests span face recognition, person re-identification and image generation.
-</span>
+<span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 
-<span>
+My research interests span face recognition, person re-identification and image generation.
+
 I received my Bachelor's degree from Northwestern Polytechnical University in 2017, under the supervision of Prof. Ying Li.
 
 More details can be found in my <a href="/img/about/CV_wwx.pdf" target="_blank">CV</a>.
@@ -21,3 +20,8 @@ Open-source projects can be found at my <a href="https://github.com/wxwangIris" 
 , and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>. 
 </span>
 </div>
+
+<b>Academic Activities:</b>
+
+Reviewer: CVPR 2020, AAAI 2020, ICCV 2019, CVPR 2019, AAAI 2019, CVPR 2018, ACCV 2018, NIPS 2016.
+
