@@ -5,7 +5,7 @@ description: Publications can be found at <a href="https://scholar.google.com/ci
 date:   2019-12-23 21:03:36 +0530
 ---
 <div>
-<img src="/img/publication/ACMMM19_Framework.png" alt="." style="vertical-align:middle;" width="270" height="175" align="right">
+<img src="/img/publication/ACMMM19_Framework.png" alt="." style="vertical-align:middle;" width="350" height="175" align="right">
 <span>
 <b>Wenxuan Wang</b>, Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yu-Gang Jiang, Xiangyang Xue
 
