@@ -21,7 +21,7 @@ Proceedings of the 27th ACM International Conference on Multimedia (ACM MM), 201
 ------
 
 <div>
-<img src="/img/publication/arxiv_expressions.png" alt="." style="vertical-align:middle;" width="350" height="140" align="left">
+<img src="/img/publication/arxiv_expressions.png" alt="." style="vertical-align:middle;" width="350" height="150" align="left">
 <span>
 <b>Wenxuan Wang</b>, Qiang Sun, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yanwei Fu. 
 
