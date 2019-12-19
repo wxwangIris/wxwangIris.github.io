@@ -131,12 +131,12 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/eccv_generated_images.png"
+    Title: "Pose-Normalized Image Generation for Person Re-identification"
+    publication: "Proceedings of the European Conference on Computer Vision (ECCV), 2018"
+  - image: "/img/timeline/ACMMM19_Framework.jpg"
+    date: "Comp-GAN: Compositional Generative Adversarial Network in Synthesizing and Recognizing Facial Expression"
+    description: "Proceedings of the 27th ACM International Conference on Multimedia (ACM MM), 2019"
 
 # First image of the Timeline
 
@@ -200,9 +200,8 @@ keybase-in-footer: True
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+  Publications: 'publications'
   Contact: 'contact'
-
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
