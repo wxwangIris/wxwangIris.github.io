@@ -58,7 +58,7 @@ lines: # You can add HTML Tags in the Text
   - text: "The lower you fall, the higher you'll fly."
   - text: "Where’s your will to be weird?"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/about/default.png"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -136,8 +136,7 @@ events:
     publication: "Proceedings of the European Conference on Computer Vision (ECCV), 2018"
   - image: "/img/timeline/ACMMM19_Framework.jpg"
     date: "Comp-GAN: Compositional Generative Adversarial Network in Synthesizing and Recognizing Facial Expression"
-    description: "Proceedings of the 27th ACM International Conference on Multimedia (ACM MM), 2019"
-
+    description: "Proceedings of the 27th ACM International Conference on Multimedia (ACM MM)"
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
