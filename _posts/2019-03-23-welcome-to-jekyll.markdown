@@ -1,28 +1,17 @@
 ---
 layout: post
-title:  "Integrating razorpay into your webapp"
-date:   2019-03-23 21:03:36 +0530
+title:  "About"
+date:   2019-12-23 21:03:36 +0530
 categories: Javascript NodeJS
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+Hi! I am currently a third-year Ph.D. student at Fudan University, under the supervision of Prof. Xiangyang Xue and Prof. Yanwei Fu. 
 
-```javascript
-const Razorpay = require('razorpay');
+I received my Bachelor's degree from Northwestern Polytechnical University in 2017, under the supervision of Prof. Ying Li. 
 
-let rzp = Razorpay({
-	key_id: 'KEY_ID',
-	secret: 'name'
-});
+My work focuses on face recognition, person reidentification and image generation. 
 
-// capture request
-rzp.capture(payment_id, cost)
-	.then(function (data) {
-		return 2;
-	})
-```
+More details can be found in my <a href="https://github.com/wxwangIris" target="_blank">CV</a>.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Open-source projects can be found at my <a href="https://github.com/wxwangIris" target="_blank">GitHub</a>
+, and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
