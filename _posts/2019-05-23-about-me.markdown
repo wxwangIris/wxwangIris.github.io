@@ -15,5 +15,7 @@ More details can be found in my <a href="/img/about/CV_wwx.pdf" target="_blank">
 Open-source projects can be found at my <a href="https://github.com/wxwangIris" target="_blank">GitHub</a>
 , and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>.
 
-![texture theme preview](/img/about/portfolio.png)
-<img src="/img/about/portfolio.png" alt="." width="175" height="175" align="left">
+<div>
+<img src="/img/about/portfolio.png" alt="." width="175" height="175" align="right">
+<span>Hi! I am currently a third-year Ph.D. student at Fudan University, under the supervision of Prof. Xiangyang Xue and Prof. Yanwei Fu.</span>
+</div>
