@@ -16,10 +16,11 @@ I received my Bachelor's degree from Northwestern Polytechnical University in 20
 <br>
 More details can be found in my <a href="/img/about/CV_wwx.pdf" target="_blank">CV</a>.
 <br>
-Open-source projects can be found at my <a href="https://github.com/wxwangIris" target="_blank">GitHub</a>
-, and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>. 
 </span>
 </div>
+
+open-source projects can be found at my <a href="https://github.com/wxwangIris" target="_blank">GitHub</a>
+, and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>. 
 
 <b>Academic Activities:</b>
 Reviewer for CVPR 2020, AAAI 2020, ICCV 2019, CVPR 2019, AAAI 2019, CVPR 2018, ACCV 2018, NIPS 2016.
