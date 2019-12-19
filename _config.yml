@@ -18,6 +18,7 @@ permalink: /posts/:title/
 texture:
   title: Wenxuan Wang
   tagline: Ph.D. Student
+  email: wxwang.iris@gmail.com
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
