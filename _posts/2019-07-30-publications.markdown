@@ -7,7 +7,7 @@ date:   2019-12-23 21:03:36 +0530
 Most Publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a> too.
 
 <div>
-<img src="/img/publication/ACMMM19_Framework.png" alt="." style="vertical-align:middle;" width="350" height="220" align="right">
+<img src="/img/publication/ACMMM19_Framework.png" alt="." style="vertical-align:middle;" width="350" height="220" align="left">
 <span>
 <b>Wenxuan Wang</b>, Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yu-Gang Jiang, Xiangyang Xue
 
@@ -21,7 +21,7 @@ Proceedings of the 27th ACM International Conference on Multimedia (ACM MM), 201
 ------
 
 <div>
-<img src="/img/publication/arxiv_face_dataset_setting.png" alt="." width="350" height="220" align="right">
+<img src="/img/publication/arxiv_face_dataset_setting.png" alt="." width="350" height="180" align="left">
 <span>
 <b>Wenxuan Wang</b>, Qiang Sun, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yanwei Fu
 
@@ -35,7 +35,7 @@ arXiv preprint arXiv:1907.10838
 ------
 
 <div>
-<img src="/img/publication/eccv_generated_images.png" alt="." width="350" height="220" align="right">
+<img src="/img/publication/eccv_generated_images.png" alt="." width="350" height="220" align="left">
 <span>
 
 Xuelin Qian, Yanwei Fu, Tao Xiang, <b>Wenxuan Wang</b>, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue
