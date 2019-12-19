@@ -5,6 +5,8 @@ description: Publications can be found at <a href="https://scholar.google.com/ci
 date:   2019-12-23 21:03:36 +0530
 ---
 
-<font color = seagreen>Pose-Normalized Image Generation for Person Re-identification</font>
+$\color{Pose-Normalized Image Generation for Person Re-identification}{blue}$
+
 Proceedings of the European Conference on Computer Vision (ECCV), 2018
+
 Xuelin Qian, Yanwei Fu, Tao Xiang, <b>Wenxuan Wang</b>, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue
