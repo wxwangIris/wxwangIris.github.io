@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "News"
 description: Welcome to drop me an email if you are interested in my works!
 date:   2019-12-23 21:03:36 +0530
