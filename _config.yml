@@ -14,6 +14,7 @@ sass:
 plainwhite:
   name: Wenxuang Wang
   tagline: PhD at Fudan University
+  Email: wxwang.iris@gmail.com
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
@@ -22,7 +23,7 @@ plainwhite:
     # twitter: thelehhman
     github:  wxwangIris
     googlescholar:  https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en
-    googleplus: https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en
+    googleplus: +https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en
     # linkedIn: in/thelehhman
     rss: rss
     # dribbble: jekyll
@@ -51,7 +52,7 @@ plainwhite:
 # - about.md
 
 # Build settings
-# theme: plainwhite
+theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
