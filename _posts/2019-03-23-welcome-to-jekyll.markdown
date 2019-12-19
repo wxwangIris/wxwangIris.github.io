@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: null
 title:  "About"
 date:   2019-12-23 21:03:36 +0530
-categories: Javascript NodeJS
 ---
 Hi! I am currently a third-year Ph.D. student at Fudan University, under the supervision of Prof. Xiangyang Xue and Prof. Yanwei Fu. 
 
