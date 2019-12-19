@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "About"
 date:   2019-12-23 21:03:36 +0530
 ---
