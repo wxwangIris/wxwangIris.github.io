@@ -1,98 +1,113 @@
-# { Personal } Jekyll Theme
-![Build Status](https://travis-ci.org/le4ker/personal-jekyll-theme.svg?branch=master)
-![license](https://img.shields.io/badge/license-MIT-blue.svg?link=https://github.com/dono-app/ios/blob/master/LICENSE)
-[![Join the chat at https://gitter.im/PanosSakkos/personal-jekyll-theme](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/panossakkos/personal-jekyll-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# plainwhite
 
-{ Personal } is a free responsive Jekyll theme, about you :wink:
+Simplistic jekyll portfolio-style theme for writers.
 
-You can watch it in action [here](https://le4ker.github.io/personal-jekyll-theme/)!
+**Demo**: [thelehhman.com](https://thelehhman.com)
 
-<img src="https://github.com/le4ker/personal-jekyll-theme/raw/master/.github/personal-mobile.mov.gif" height="480">
+![plainwhite theme preview](/screenshot.png)
 
-<img src="https://github.com/le4ker/personal-jekyll-theme/raw/master/.github/personal-desktop.mov.gif" height="600" width="960">
 
-## What value does { Personal } add
+## Installation on Github Pages
 
-* Fork of [Timeline](https://github.com/kirbyt/timeline-jekyll-theme) (mashup of [Grayscale by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-grayscale) and [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme))
-  * Modern and minimal design
-    * Responsive templates for home page, blog archive and posts. Looks great on mobile, tablet, and desktop devices
-    * Sweet animations
-    * Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers
-  * Timeline
-    * Tell your story so far with a sleek timeline of dates, pictures and descriptions
-  * White on black text, making the reading experience tireless
-  * Google analytics  
-* Customization and full control of your website and blog through the site config
-* Customization of the website's coloring
-* Blogging functionality
-  * Preview of the latest post in the home page
-  * Archive page
-  * Syntax highlighting
-  * Emojis
-  * Gesture navigation in archive and post pages by swiping
-  * Hashtags
-  * Categories
-  * Disqus comments
-  * Bootstrap share buttons
-  * RSS feed
-* Author blurb under the posts
-* 404 page
-* iOS and Android Web App mode
-* Enforcing of https protocol
-* Protection from email harvesting
-* Sitemap
-* Travis CI integration with [html-proofer](https://github.com/gjtorikian/html-proofer)
+Add this line to your site's `_config.yml`:
+```yaml
+remote_theme: thelehhman/plainwhite-jekyll
+```
+## Installation
 
-## Documentation
+Add this line to your Jekyll site's `Gemfile`:
 
-The theme contains documentation in the form of [blog posts](https://le4ker.github.io/personal-jekyll-theme/blog/index.html).
-
-## How to run locally
-
-First, you need to install jekyll and the dependencies of { Personal } by running:
-
-```shell
-./scripts/install
+```ruby
+gem "plainwhite"
 ```
 
-Then, you can build and serve your website by simply running:
+And add this line to your Jekyll site's `_config.yml`:
 
-```shell
-./scripts/serve-production
+```yaml
+theme: plainwhite
 ```
 
-To serve across lan (requires su to forward the port 4000 over lan):
+And then execute:
 
-```shell
-./scripts/serve-lan-production
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install plainwhite
+
+## Usage
+
+The "plainwhite" key in _config.yml is used to customize the theme data.
+```yaml
+plainwhite:
+  name: Adam Denisov
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    twitter: thelehhman
+    github:  thelehhman
+    linkedIn: in/thelehhman # format: locale/username
 ```
 
-### Docker
+**Updating Placeholder Image**
 
-Run using Docker:
+The placeholder portfolio image can be replaced by the desired image by placing it as `assets/portfolio.png` in your jekyll website.
 
+**Comments (Disqus)**
+
+Comments on posts can be enabled by specifying your disqus_shortname under plainwhite in `_config.yml`. For example,
+```yaml
+plainwhite:
+  disqus_shortname: games
 ```
-docker run --rm -it -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll jekyll serve --watch --host "0.0.0.0" --config _config.yml,_config.dev.yml
+
+**Google Analytics**
+
+It can be enabled by specifying your analytics id under plainwhite in `_config.yml`
+```yaml
+plainwhite:
+  analytics_id: '< YOUR ID >'
 ```
 
-Run using Docker with Docker Compose:
+**Sitemap**
+
+It can be toggled by the following line to under plainwhite in  `_config.yml`
+
+```yaml
+plainwhite:
+  sitemap: true
 ```
-docker-compose up
+
+**Excerpts**
+
+Excerpts can be enabled by adding the following line to your `_config.yml`
+```yaml
+show_excerpts: true
 ```
+**Layouts**
 
-## OSS used in { Personal }
+- Home
+- Page
+- Post
 
-One of the reasons { Personal } is real is the following OSS projects:
+## Contributing
 
-  1. [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
-  2. [hammer.js](https://hammerjs.github.io/)
-  3. [highlightjs](https://highlightjs.org/)
-  4. [RRSSB](https://github.com/kni-labs/rrssb)
-  5. [Timeline](https://github.com/kirbyt/timeline-jekyll-theme)
-  6. [typed.js](https://github.com/mattboldt/typed.js/)
+Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/plainwhite-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-<div style="font-size:16px;margin:0 auto;width:300px">
-    <a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi">
-        <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
-    </a>
-</div>
+## Development
+
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `plainwhite.gemspec` accordingly.
+
+## License
+
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## More themes
+
+- [Texture](https://github.com/thelehhman/texture)

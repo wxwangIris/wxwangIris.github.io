@@ -12,18 +12,16 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Wenxuang Wang
-  tagline: PhD at Fudan University
+  name: Adam Denisov
+  tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
   # generate social links in footer
   social_links:
-    # twitter: thelehhman
-    github:  wxwangIris
-    googlescholar:  https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en
-    googleplus: https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en
-    # linkedIn: in/thelehhman
+    twitter: thelehhman
+    github:  thelehhman
+    linkedIn: in/thelehhman
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
@@ -51,7 +49,7 @@ plainwhite:
 # - about.md
 
 # Build settings
-# theme: plainwhite
+theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
