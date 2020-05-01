@@ -97,11 +97,11 @@
     <br><br>
 
     <hr>
-    <div class="center-div">
+    <div class="center-div" align="center">
         <h2>FMMu-Net</h2>
     </div>
 
-    <table align="center" width="800px">
+    <table align="center" width="1200px">
         <td>
             <div>
             <span style="font-size:18px">Face Morphological Multi-branch Network (FMMu-Net) for makeup-invariant 
@@ -113,18 +113,18 @@
     </table>
 
     <br>
-    <table align="center" width="500px">
+    <table align="center" width="800px">
         <tbody>
             <tr>
                 <td>
                     <div class="center-div">
-                        <a href="#"><img src="images/cvpr20_framework.png" width="600px"></a><br>
+                        <a href="#"><img src="images/cvpr20_framework.png" width="800px"></a><br>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div class="center-div">
+                    <div class="center-div" align="center">
                         <span style="font-size:16px"><i>FMMu-Net Framework</i>
                         </span></div>
                 </td>
@@ -136,26 +136,28 @@
     <table align="center" width="800px">
         <td>
             <div>
-            <span style="font-size:18px"> Real28 is collected in 3 different days (with different clothing) by 
-                4 cameras of 28 different identities and consists of altogether4,324 images with 2 indoor scenes and 2 outdoors.
+            <span style="font-size:18px"> FM-Net is stacked by two weight-sharing auto-encoders, to synthesize high-quality 
+			and abundant makeup faces by transferring the key cosmetics local patches (two eyes and mouth) between two similar faces.
+			AttM-Net learns cosmetics-robust identity features on local patches, and fuses them under the guidance of fusion
+			module, which can adaptively weight different parts (global and local) for each particular face.
             </div>
         </td>
     </table>
     <br>
 
-    <table align="center" width="500px">
+    <table align="center" width="800px">
         <tbody>
             <tr>
                 <td>
                     <div class="center-div">
-                        <a href="#"><img src="./resources/images/real28.jpg" width="600px"></a><br>
+                        <a href="#"><img src="images/cvpr20_AttM-Net.png" width="800px"></a><br>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <div class="center-div">
-                        <span style="font-size:16px"><i>Real28 Dataset</i>
+                    <div class="center-div" align="center">
+                        <span style="font-size:16px"><i>AttM-Net</i>
                         </span></div>
                 </td>
             </tr>
