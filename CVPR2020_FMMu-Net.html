@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
+    <title>FMMu-Net</title>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <br>
+    <div class="center-div">
+        <span style="font-size:30px">FMMu-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification</span>
+    </div>
+
+    <br>
+    <table align="center" width="600px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="#">Wenxuan Wang</a><sup>*</sup></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="#">Yanwei Fu</a><sup>*</sup></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="#">Xuelin Qian</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="#">Yu-Gang Jiang</a></span>
+                    </div>
+                </td>
+
+				<td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="#">Qi Tian</a></span>
+                    </div>
+                </td>
+				
+				<td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="#">Xiangyang Xue</a></span>
+                    </div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table align="center" width="700px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px">Fudan University &nbsp; &nbsp; Noah’s Ark Lab, Huawei Technologies</span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <hr>
+    <div class="center-div">
+        <h2>Abstract</h2>
+    </div>
+    <table align="center" width="800px">
+        <td>
+            <div>
+            <span style="font-size:18px"> It is challenging in learning a makeup-invariant face verification model, due to 
+			(1) insufficient makeup/non-makeup face training pairs, (2) the lack of diverse makeup faces, and (3) the 
+			significant appearance changes caused by cosmetics. To address these challenges, we propose a unified
+			Face Morphological Multi-branch Network (FMMu-Net) for makeup-invariant face verification, which can simultaneously 
+			synthesize many diverse makeup faces through face morphology network (FM-Net) and effectively learn
+			cosmetics-robust face representations using attention-based multi-branch learning network (AttM-Net). For challenges
+			(1) and (2), FM-Net (two stacked auto-encoders) can synthesize realistic makeup face images by transferring specific
+			regions of cosmetics via cycle consistent loss. For challenge (3), AttM-Net, consisting of one global and three local 
+			(task-driven on two eyes and mouth) branches, can effectively capture the complementary holistic and detailed
+			information. Unlike DeepID2 which uses simple concatenation fusion, we introduce a heuristic method AttM-FM,
+			attached to AttM-Net, to adaptively weight the features of different branches guided by the holistic information. We
+			conduct extensive experiments on makeup face verification benchmarks (M-501, M-203, and FAM) and general
+			face recognition datasets (LFW and IJB-A). Our framework FMMu-Net achieves state-of-the-art performances.
+            </div>
+        </td>
+       
+    </table>
+    <br><br>
+
+    <hr>
+    <div class="center-div">
+        <h2>FMMu-Net</h2>
+    </div>
+
+    <table align="center" width="800px">
+        <td>
+            <div>
+            <span style="font-size:18px">Face Morphological Multi-branch Network (FMMu-Net) for makeup-invariant 
+			face verification, which can simultaneously synthesize many diverse makeup faces through face morphology 
+			network (FM-Net) and effectively learn cosmetics-robust face representations using attention-based
+			multi-branch learning network (AttM-Net). 
+            </div>
+        </td>
+    </table>
+
+    <br>
+    <table align="center" width="500px">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div">
+                        <a href="#"><img src="images/cvpr20_framework.png" width="600px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div">
+                        <span style="font-size:16px"><i>FMMu-Net Framework</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <table align="center" width="800px">
+        <td>
+            <div>
+            <span style="font-size:18px"> Real28 is collected in 3 different days (with different clothing) by 
+                4 cameras of 28 different identities and consists of altogether4,324 images with 2 indoor scenes and 2 outdoors.
+            </div>
+        </td>
+    </table>
+    <br>
+
+    <table align="center" width="500px">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div">
+                        <a href="#"><img src="./resources/images/real28.jpg" width="600px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div">
+                        <span style="font-size:16px"><i>Real28 Dataset</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <table align="center" width="800px">
+        <td>
+            <div>
+            <span style="font-size:18px"> <b>Naming Rule of the images.</b> In bbox "0001_02_03_04.jpg", "0001" is the identity. 
+                "02" means the image from Camera 2. "03" means the number of the clothes that the person is wearing. 
+                "04" is the 4-th image of all the images in Camera 2.
+            </div>
+        </td>
+    </table>
+    <br><br>
+
+    <table align="center" width="800px">
+        <td>
+            <div>
+            <span style="font-size:18px"> <b>Dataset Licence.</b> Please follow the <a href="./resources/licence.txt">LICENSE</a>.
+                You are free to share, create and adapt the VC-Clothes and Real28 dataset, in the manner specified in the license.
+            </div>
+        </td>
+    </table>
+    <br><br>
+
+    <hr>
+    <div class="center-div">
+        <h2 id="paper">Paper, Code and Data</h2>
+    </div>
+    <table align="center" width="600px">
+
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:175px" src="./resources/images/page.jpg">
+                </td>
+                <td>
+                    <span style="font-size:14pt">Fangbin Wan<sup>*</sup>, Yang Wu<sup>*</sup>, Xuelin Qian, Yanwei Fu</span>
+                    <br><br>
+                    <b><span style="display:inline-block;width:600px;font-size:14pt">When Person Re-identification Meets Changing Clothes.
+                    </span></b>
+                    <br><br>
+                    <span style="font-size:20px">
+                        <a href="https://arxiv.org/pdf/2003.04070.pdf">[arXiv]</a> &nbsp; &nbsp;
+                        <a href="./resources/bibtex.txt">[Bibtex]</a> &nbsp; &nbsp; 
+                        <a href="#">[GitHub]</a> &nbsp; &nbsp;
+                        <a href="https://drive.google.com/drive/folders/1gd3PVsbDVlrSzK60BWUf1Y2C6nGMDcRV?usp=sharing">[Google Drive]</a>
+                    </span>
+                    <br><br>
+                    <span style="font-size:14pt">
+                        <a href="https://pan.baidu.com/s/1Irv4HGKepnhk09TMAjXQ1Q">[Baidu Drive](password: zoey)</a>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    
+    <br><br>
+    <hr>
+    <table align="center" width="980px">
+        <tbody>
+            <tr>
+                <td>
+                    <left>
+                        <div class="center-div">
+                            <h2>Acknowledgements</h2>
+                        </div>
+                        <div class="center-div">
+                            The website is modified from this <a href="https://www.cs.cmu.edu/~wyuan1/pcn/">template</a>.
+                        </div>
+                    </left>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+
+</body>
+
+</html>
