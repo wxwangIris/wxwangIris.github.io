@@ -1,0 +1,7 @@
+@InProceedings{Wang_2020_CVPR,
+author = {Wang, Wenxuan and Fu, Yanwei and Qian, Xuelin and Jiang, Yu-Gang and Tian, Qi and Xue, Xiangyang},
+title = {FM2u-Net: Face Morphological Multi-Branch Network for Makeup-Invariant Face Verification},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
