@@ -1,0 +1,211 @@
+<html>
+
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
+    <title>DST_Attack</title>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <br>
+    <div class="center-div" align="center">
+        <span style="font-size:28px">DST: Dynamic Substitute Training for Data-free Black-box Attack</span>
+    </div>
+
+    <br>
+    <table align="center" width="1000px">
+        <tbody>
+            <tr>
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://wxwangiris.github.io/" target="_blank">Wenxuan Wang</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://naiq.github.io/" target="_blank">Xuelin Qian *</a></span>
+                    </div>
+                </td>
+				
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="http://yanweifu.github.io/index.html" target="_blank">Yanwei Fu</a></span>
+                    </div>
+                </td>
+                		
+				<td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a></span>
+                    </div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table align="center" width="700px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px">Fudan University</span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2>Abstract</h2>
+    </div>
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> With the wide applications of deep neural network models in various computer vision tasks, 
+			more and more works study the model vulnerability to adversarial examples. For data-free black box attack scenario, 
+			existing methods are inspired by the knowledge distillation, and thus usually train a substitute model to learn knowledge 
+			from the target model using generated data as input. However, the substitute model always has a static network structure, 
+			which limits the attack ability for various target models and tasks. In this paper, we propose a novel dynamic substitute 
+			training attack method to encourage substitute model to learn better and faster from the target model. Specifically, a 
+			dynamic substitute structure learning strategy is proposed to adaptively generate optimal substitute model structure via 
+			a dynamic gate according to different target models and tasks. Moreover, we introduce a task-driven graph-based structure 
+			information learning constrain to improve the quality of generated training data, and facilitate the substitute model 
+			learning structural relationships from the target model multiple outputs. Extensive experiments have been conducted to 
+			verify the efficacy of the proposed attack method, which can achieve better performance compared with the state-of-the-art 
+			competitors on several datasets.
+            </div>
+        </td>
+       
+    </table>
+    <br><br>
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2>DST_Attack</h2>
+    </div>
+
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px">We propose a novel and task-driven Dynamic Substitute Training attack framework (DST) method to boost the 
+			data-free black-box attacking performance. As shown in following figure, (a) Illustration of our DST attack framework. DST utilizes a 
+			Graph-based Structural Information Learning strategy (GSIL) to train the generator and substitute model. (b) Schematic diagram of Dynamic 
+			Substitute Structure Learning strategy (DSSL). The DSSL of DST is applied to automatically generate optimal substitute model structure 
+			according to different targets.
+            </div>
+        </td>
+    </table>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/cvpr22_framework.png" width="800px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <span style="font-size:20px"><i>DST_Attack Framework</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+
+	<hr> 
+
+    <div class="center-div" align="center">
+        <h2 id="paper">Paper and Data</h2>
+    </div>
+    <table align="center">
+
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:200px" src="images/cvpr2022_DST/cvpr22_page.png">
+                </td>
+                <td>
+					<b><span style="display:inline-block;width:800px;font-size:14pt"> DST: Dynamic Substitute Training for Data-free Black-box Attack.
+                    </span></b>
+                    <br><br>
+                    <span style="font-size:14pt">  Wenxuan Wang, Xuelin Qian<sup>*</sup>, Yanwei Fu, Xiangyang Xue</span>
+                    <br><br>
+                    <span style="font-size:14px">
+                        <a href="">[Paper]</a>
+                        <a href="">[Bibtex]</a>
+						<a href="">[Codes]</a>
+                        <!--<a href="">[GitHub]</a>-->
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+	
+	
+	<hr> 
+	<div class="center-div" align="center">
+        <h2>Results</h2>
+    </div>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/cvpr2022_DST/cvpr22_results-1.png" width="800px"></a><br>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br><br>
+
+	<br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/cvpr2022_DST/cvpr22_results-2.png" width="700px"></a><br>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br><br>
+    
+    <hr>
+    <table align="center" width="980px">
+        <tbody>
+            <tr>
+                <td>
+                    <left>
+                        <div class="center-div" align="center">
+                            <h2>Acknowledgements</h2>
+                        </div>
+                        <div class="center-div" align="center"> 
+                            The website is modified from this <a href="https://www.cs.cmu.edu/~wyuan1/pcn/">template</a>.
+                        </div>
+                    </left>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+
+</body>
+
+</html>
