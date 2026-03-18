@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="Wenxuan Wang" />
+    <meta name="keywords" content="Wenxuan Wang, Computer Vision, Machine Learning" />
+
+    <!--<link href="favicon.png" rel="icon" />-->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://cdn.bootcss.com/font-awesome/5.12.1/css/all.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Wenxuan Wang</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="">
+                    <serif>Wenxuan Wang</serif>
+                </a>
+                <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/TCSVT25_REID.png" alt="[SeCap]" />
+                        </div>
+                    </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--<div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-item nav-link" href="#Publications">Publications</a>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+        </nav>
+        <div class="sec-wrapper home-wrapper" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-1 placeholder"></div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="picture">
+                            <img src="images/wxwang.png" class="IMG-responsive" alt="[wxwang]"
+                                onmouseover="this.src='images/wxwang.png'"
+                                onmouseout="this.src='images/wxwang.png'" />
+                        </div>
+                    </div>
+                    <div class="col-sm-1 placeholder"></div>
+                    <div class="col-sm-6 col-wrapper">
+                        <div class="description">
+                            <!--<h1 class="name">Xuelin Qian</h1>-->
+							
+				                        <!--<div>Hi! I am currently an Associate Professor at the School of Computer Science, <a href="https://en.nwpu.edu.cn/" target="_blank">Northwestern Polytechnical University.</a>
+							<div>[2022-2023] I was a senior researcher at Intel Asia-Pacific Research & Development Ltd. 
+							<div>[2017-2022] I received Ph.D. from the <a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a>, 
+							under the supervision of Prof. <a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a>.</div>
+							<div>[2013-2017] I received my Bachelor's degree from the School of Computer Science in <a href="https://en.nwpu.edu.cn/" target="_blank">Northwestern Polytechnical University</a>.</div>
+							<div>At present, I focus on studying trustworthy AI and human understanding with deep learning.</div> -->
+                            				<div><!-- More details can be found in my <a href="documents/CV_wxwang.pdf" target="_blank">CV</a>. -->
+							<!--Most publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>. </div> -->
+							Hi! I am currently an Associate Professor at the School of Computer Science, <a href="https://en.nwpu.edu.cn/" target="_blank">Northwestern Polytechnical University. </a>
+							I was a senior researcher at <a href="https://www.intel.com/" target="_blank">Intel Asia-Pacific Research & Development Ltd. </a>
+							I received Ph.D. from the <a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a>, 
+							under the supervision of Prof. <a href="https://yanweifu.github.io/index.html" target="_blank">Yanwei Fu</a>
+							and Prof. <a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a>, 
+							and received my Bachelor's degree from the School of Computer Science at Northwestern Polytechnical University. 
+							At present, I focus on studying trusty AI and human understanding with deep learning.
+							Most publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>.
+                        </div>
+                    </div>
+                    <div class="col-sm-1 placeholder"></div>
+                </div>
+            </div>
+        </div>
+	<br>
+	<div class="sec-wrapper pub-wrapper" id="pub">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-wrapper">
+                        <div class="section-title">
+                            <b>News</b>
+                            <hr style="margin-top: 0px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+			            <div>[05/2025] one paper is accepted by TCSVT2025 about person re-identification <a href="https://ieeexplore.ieee.org/abstract/document/10963697/" target="_blank">(VI_REID)</a>. Congrats to Ruiqi!</div>
+			            <div>[02/2025] twp paper are accepted by CVPR2025 about cross-view person re-identification <a href="https://arxiv.org/abs/2503.06965" target="_blank">(SeCap)</a> and adversarial attack <a href="" target="_blank">(DPO)</a>. Congrats to Shining and Fengfan!</div>
+				    <div>[12/2024] One paper is accepted by ICASSP2025 about emotion recognition <a href="" target="_blank">(TransEmo)</a>. </div>
+			            <div>[09/2024] One paper is accepted by TPAMI2025 about data-free black-box attack <a href="" target="https://ieeexplore.ieee.org/document/10697391">(DraKe)</a>. </div>
+			            <div>[07/2024] One paper is accepted by ACMMM2024 about adversarial training <a href="" target="https://arxiv.org/abs/2412.02270">(SSEAT)</a>. Congrats to Chenglei! </div>
+				    <div>[05/2024] One paper is accepted by ICMR2024 as <font color="#DAA520">Oral Presentation</font> about person re-id <a href="https://arxiv.org/pdf/2406.12316" target="_blank">(MIP)</a>. Congrats to Ruiqi! </div>
+		</div>
+            </div>
+        </div>
+	<br>		
+        <div class="sec-wrapper pub-wrapper" id="pub">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-wrapper">
+                        <div class="section-title">
+                            <b>Publications</b>
+                            <hr style="margin-top: 0px;" />
+                        </div>
+                    </div>
+                </div>
+		(*: equal contribution; &#10013: corresponding author)
+		<div class="row align-items-center section-item">
+
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Enhancing Visible-Infrared Person Re-identification with Modality- and Instance-aware Visual Prompt Learning</b>
+                        </div>
+                        <div class="authors">
+				Ruiqi Wu, Bingliang Jiao, Meng Liu, Shining Wang, <me>Wenxuan Wang<sup>&#10013</sup></b></me>, Peng Wang.
+                        </div>
+                        <div>
+			        IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="https://ieeexplore.ieee.org/abstract/document/10963697/">[Paper]</a>
+			<!-- <a href="">[Code]</a> -->
+                    </div>
+                </div>   
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/CVPR25_AGREID.png" alt="[SeCap]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>SeCap: Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks</b>
+                        </div>
+                        <div class="authors">
+				Shining Wang, Yunlong Wang, Ruiqi Wu, Bingliang Jiao, <me>Wenxuan Wang<sup>&#10013</sup></b></me>, Peng Wang.
+                        </div>
+                        <div>
+			        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="https://arxiv.org/abs/2503.06965">[Paper]</a>
+			<a href="https://github.com/wangshining681/SeCap-AGPReID">[Code]</a>
+                    </div>
+                </div>    
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/CVPR25_Attack.png" alt="[DPO]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Improving the Transferability of Adversarial Attacks on Face Recognition with Diverse Parameters Augmentation</b>
+                        </div>
+                        <div class="authors">
+				Fengfan Zhou, Bangjie Yin, Hefei Ling, Qianyu Zhou, <me>Wenxuan Wang</me>.
+                        </div>
+                        <div>
+			        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="">[Paper]</a>
+                    </div>
+                </div>    
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/ICASSP25_Emotion.png" alt="[TransEmo]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Hierarchical Context Interaction and Reasoning with Transformer for Emotion Recognition</b>
+                        </div>
+                        <div class="authors">
+				<me>Wenxuan Wang</me>, Chenglei Wang, Xiaomei Wang, Xuli Shen, Qing Xu, Xuelin Qian.
+                        </div>
+                        <div>
+			IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="">[Paper]</a>
+                    </div>
+                </div>    
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/TPAMI24_framework.png" alt="[DraKe]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Dynamic Routing and Knowledge Re-Learning for Data-free Black-box Attack</b>
+                        </div>
+                        <div class="authors">
+				Xuelin Qian, <me>Wenxuan Wang<sup>&#10013</sup></b></me>, Yu-Gang Jiang, Xiangyang Xue, Yanwei Fu.
+                        </div>
+                        <div>
+			IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="https://ieeexplore.ieee.org/document/10697391">[Paper]</a>
+                    </div>
+                </div>
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/ACMMM24_framework.png" alt="[DraKe]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Sustainable Self-evolution Adversarial Training</b>
+                        </div>
+                        <div class="authors">
+				<me>Wenxuan Wang</me>, Chenglei Wang, Huihui Qi, Menghao Ye, Xuelin Qian, Peng Wang, Yanning Zhang.
+                        </div>
+                        <div>
+			ACM International Conference on Multimedia (ACM MM), 2024
+                        </div>
+                        <a href="https://arxiv.org/abs/2412.02270">[Paper]</a>
+			<a href="https://github.com/aup520/SSEAT">[Code]</a>
+			<a href="https://aup520.github.io/sseats/acmm2024.html">[Project Page]</a>
+                    </div>
+                </div>
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/icmr24_framework.png" alt="[MIP_ReID]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Enhancing Visible-Infrared Person Re-identification with Modality- and Instance-aware Visual Prompt Learning</b>
+                        </div>
+                        <div class="authors">
+				Ruiqi Wu, Bingliang Jiao, <me>Wenxuan Wang<sup>&#10013</sup></b></me>, Meng Liu, Peng Wang.
+                        </div>
+                        <div>
+			ACM International Conference on Multimedia Retrieval (ICMR), 2024 <font color="#DAA520">(Oral)</font>
+                        </div>
+                        <a href="https://arxiv.org/abs/2406.12316">[Paper]</a>
+			<a href="https://github.com/wurqjackey/MIP/">[Code]</a>
+		        <a href="https://wurqjackey.github.io/ICMR2024_MIP/">[Project Page]</a>
+                    </div>
+                </div>
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/cvpr22_framework.png" alt="[DST_Attack]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>DST: Dynamic Substitute Training for Data-free Black-box Attack</b>
+                        </div>
+                        <div class="authors">
+			    <me>Wenxuan Wang</me>, Xuelin Qian, Yanwei Fu, Xiangyang Xue.
+                        </div>
+                        <div>
+                            IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022
+                        </div>
+                        <a href="">[Paper]</a>
+			<!-- <a href="https://wxwangiris.github.io/DST">[Project Page]</a>-->
+                    </div>
+                </div>
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/cvpr21_framework.png" alt="[CVPR21_Attack]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Delving into Data: Effectively Substitute Training for Black-box Attack</b>
+                        </div>
+                        <div class="authors">
+			    <me>Wenxuan Wang</me>, Bangjie Yin, Taiping Yao, Li Zhang, Yanwei Fu, Shouhong Ding, Jilin Li, Feiyue Huang, Xiangyang Xue.
+                        </div>
+                        <div>
+                            IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="https://arxiv.org/abs/2104.12378">[Paper]</a>
+			<!-- <a href="">[Project Page]</a> -->
+                    </div>
+                </div>
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/ijcai21_framework.png" alt="[Makeup_Attack]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Adv-Makeup: A New Imperceptible and Transferable Attack on Face Recognition</b>
+                        </div>
+                        <div class="authors">
+						    Bangjie Yin*, <me>Wenxuan Wang*</me>, Taiping Yao*, Junfeng Guo, Zelun Kong, Shouhong Ding, Jilin Li, Cong Liu.
+                        </div>
+                        <div>
+                            International Joint Conference on Artificial Intelligence (IJCAI), 2021
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="https://arxiv.org/abs/2105.03162">[Paper]</a>
+			<a href="https://github.com/TencentYoutuResearch/Adv-Makeup">[Project Page]</a>
+                    </div>
+                </div>
+                <div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/cvpr20_framework.png" alt="[FMMu-Net]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>FM2u-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification</b>
+                        </div>
+                        <div class="authors">
+							<me>Wenxuan Wang</me>, Yanwei Fu, Xuelin Qian, Yu-Gang Jiang, Tian Qi, Xiangyang Xue.
+                        </div>
+                        <div>
+                            IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_FM2u-Net_Face_Morphological_Multi-Branch_Network_for_Makeup-Invariant_Face_Verification_CVPR_2020_paper.html">[Paper]</a>
+			<a href="https://wxwangiris.github.io/CVPR2020_FM2u-Net">[Project Page]</a>
+			<a href="https://drive.google.com/open?id=1wpqZCYh7gGKz897C-hQbgR7CHbJdBGxg">[Dataset Google Drive]</a>
+                    </div>
+                </div>
+				<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/arxiv2020_LTCC_intro.png" alt="[LTCC]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Long-Term Cloth-Changing Person Re-identification</b>
+                        </div>
+                        <div class="authors">
+				Xuelin Qian, <me>Wenxuan Wang</me>, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue.
+                        </div>
+                        <div>
+                           Asian Conference on Computer Vision (ACCV), 2020 <font color="#DAA520">(Oral)</font>
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="https://arxiv.org/abs/2005.12633">[Paper]</a>
+			<a href="https://naiq.github.io/LTCC_Perosn_ReID.html">[Project Page]</a>
+			<a href="https://naiq.github.io/LTCC_Perosn_ReID.html">[Dataset]</a>
+                    </div>
+                </div>
+                <!--<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/tpami2020_Comp-GAN.png" alt="[Expression]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Learning to Augment Expressions for Few-shot Fine-grained Facial Expression Recognition</b>
+                        </div>
+                        <div class="authors">
+							<me>Wenxuan Wang</me>, Yanwei Fu, Qiang Sun, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yu-Gang Jiang, Xiangyang Xue.
+                        </div>
+                        <div>
+                            Under Review
+                        </div>
+                        <a href="https://arxiv.org/abs/2001.06144">[Paper]</a>
+                    </div>
+                </div>-->
+		<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/ACMMM2019_Framework.png" alt="[Comp-GAN]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Comp-GAN: Compositional Generative Adversarial Network in Synthesizing and Recognizing Facial Expression</b>
+                        </div>
+                        <div class="authors">
+							<me>Wenxuan Wang</me>, Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yu-Gang Jiang, Xiangyang Xue.
+                        </div>
+                        <div>
+                            ACM International Conference on Multimedia (ACM MM), 2019
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3343031.3351032">[Paper]</a>
+                </div>
+                <!--</div>
+				<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/arxiv_2019_expression_data.png" alt="[Experssion]" />
+                        </div>
+                    </div>
+                	<div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>A Fine-Grained Facial Expression Database for End-to-End Multi-Pose Facial Expression Recognition</b>
+                        </div>
+                        <div class="authors">
+							<me>Wenxuan Wang</me>, Qiang Sun, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yanwei Fu.
+                        </div>
+                        <div>
+                            arXiv preprint arXiv:1907.10838
+                        </div>
+                        <a href="https://arxiv.org/abs/1907.10838">[Paper]</a>
+					</div>
+                </div>-->
+				<div class="row align-items-center section-item">
+                    <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
+                        <div class="figure" style="border: none;">
+                            <img src="images/eccv18_framework.png" alt="[PN-GAN]" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-8 col-wrapper introbox">
+                        <div class="title">
+                            <b>Pose-Normalized Image Generation for Person Re-identification</b>
+                        </div>
+                        <div class="authors">
+							Xuelin Qian, Yanwei Fu, Tao Xiang, <me>Wenxuan Wang</me>, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue. 
+                        </div>
+                        <div>
+                            Proceedings of the European Conference on Computer Vision (ECCV), 2018
+                        </div>
+                        <!-- <a href="#">[Project Page]</a> -->
+                        <a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Xuelin_Qian_Pose-Normalized_Image_Generation_ECCV_2018_paper.html">[Paper]</a>
+                        <a href="https://github.com/naiq/PN_GAN">[Code]</a>
+					</div>
+                </div>
+            </div>
+        </div>
+		<div class="sec-wrapper pub-wrapper" id="pub">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-wrapper">
+                        <div class="section-title">
+                            <b>Contact</b>
+                            <hr style="margin-top: 0px;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="description">
+                    <div>Email: wxwang at nwpu dot edu dot cn or wxwang dot iris at gmail dot com</div>
+					<div>Addr: 127 Youyi West Road, Xi'an City, Shaanxi Province.</div>
+                </div>
+            </div>
+        </div>
+	<p><center>
+	  <div id="clustrmaps-widget" style="width:10%">
+	  <script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=Lyc_D99fqII72DI1KVRys_Ul3S-kEw9TBUwk_45tjN4"></script>
+	  </div>        
+	  <!--<br>
+	    &copy; Wenxuan Wang | Last updated: 09/2022-->
+	</center></p>
+        <div class="bottombar">
+            <div class="col-sm year">
+                2018-2025
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
